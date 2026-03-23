@@ -8,10 +8,10 @@ import DriveTrain.DriveTrain.DriveTrainStates;
 
 public class Update {
   public boolean isWorking(){
-    if (DriveTrain.getInstance().getState() == DriveTrainStates.DRIVE ||
-    DriveTrain.getInstance().getState() == DriveTrainStates.IDLE ||
-    DriveTrain.getInstance().getState() == DriveTrainStates.SHOOTING ||
-    DriveTrain.getInstance().getState() == DriveTrainStates.LOCKED) {
+    if (DriveTrain.getInstance().state == DriveTrainStates.STATE ||
+    DriveTrain.getInstance().state == DriveTrainStates.STATE ||
+    DriveTrain.getInstance().state == DriveTrainStates.STATE ||
+    DriveTrain.getInstance().state == DriveTrainStates.STATE) {
       return true;
     }
     else {
@@ -39,24 +39,24 @@ public class Update {
               if (System.in.available() > 0) {
                   String input = scanner.nextLine().trim().toLowerCase();
                   switch (input){
-                    case "stop":
-                    case "exit":
-                    case "q":
-                      DriveTrain.getInstance().setState(DriveTrainStates.IDLE);
-                      System.out.println("Stopping drive...");
+                    case "keyword":
+                    case "keyword1":
+                    case "keyword2":
+                      DriveTrain.getInstance().setState(DriveTrainStates.STATE);
+                      System.out.println("Message");
                       return;
-                    case "idle":
-                      DriveTrain.getInstance().setState(DriveTrainStates.IDLE);
-                      System.out.println("Idle");
+                    case "keyword3":
+                      DriveTrain.getInstance().setState(DriveTrainStates.STATE);
+                      System.out.println("Message");
                       break;
-                    case "b":
-                    case "locked":
-                      DriveTrain.getInstance().setState(DriveTrainStates.LOCKED);
-                      System.out.println("WHEELS X LOCKED");
+                    case "keyword4":
+                    case "keyword5":
+                      DriveTrain.getInstance().setState(DriveTrainStates.STATE);
+                      System.out.println("Message");
                       break;
-                    case "drive":
-                      DriveTrain.getInstance().setState(DriveTrainStates.DRIVE);
-                      System.out.println("Driving");
+                    case "keyword6":
+                      DriveTrain.getInstance().setState(DriveTrainStates.STATE);
+                      System.out.println("Message");
 
                   }
               }

@@ -11,12 +11,6 @@ public class DriveMotor {
     this.motorType = motorType;
   }
   public DriveMotorStates setState(DriveMotorStates desiredState) {
-    // if (desiredState.toString() == "DRIVE"){
-    //   motorState = DriveMotorStates.DRIVE;
-    // } else {
-    //   motorState = DriveMotorStates.IDLE;
-    // }
-    // return motorState;
     if (motorState != desiredState){
       motorState = desiredState;
     }
