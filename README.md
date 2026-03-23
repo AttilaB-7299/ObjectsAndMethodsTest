@@ -9,4 +9,8 @@
 ###     Set all states to make sense using getters and setters 
 ###     No changes are required for DriveMotor.java 
 # Normal test 
-## 
+## Name.java
+###     Make an apple object with at least 5 properties 
+## Human.java
+###     Make a human object
+###     Make a throw method that takes in an apple and outputs a damage number
