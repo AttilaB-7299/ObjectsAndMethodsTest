@@ -14,3 +14,4 @@
 ## Human.java
 ###     Make a human object
 ###     Make a throw method that takes in an apple and outputs a damage number
+###     Call the above method in Main.java
