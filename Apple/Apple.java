@@ -1,11 +1,10 @@
 package Apple;
 public class Apple {
   int size;
-  static double damage;
 
   public static Apple m_apple = new Apple(10);
 
-  damage = Apple.getInstance().getSize() * .25;
+  static double damage = Apple.getInstance().getSize() * .25;
   public Apple(int size){
     this.size = size;
   }
