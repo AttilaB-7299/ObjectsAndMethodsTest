@@ -15,3 +15,5 @@
 ###     Make a human object
 ###     Make a throw method that takes in an apple and outputs a damage number
 ###     Call the above method in Main.java
+## Shield.java
+###     make a Shield object with with a method that can block an apple thrown by a human 
