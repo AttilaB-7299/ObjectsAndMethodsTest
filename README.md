@@ -11,9 +11,10 @@
 # Normal test 
 ## Name.java
 ###     Make an apple object with at least 5 properties 
+###     Ensure that the file name is the same as the class name otherwise the file will not compile
 ## Human.java
 ###     Make a human object
 ###     Make a throw method that takes in an apple and outputs a damage number
 ###     Call the above method in Main.java
 ## Shield.java
-###     make a Shield object with with a method that can block an apple thrown by a human 
+###     Make a Shield object with with a method that can block an apple thrown by a human 
